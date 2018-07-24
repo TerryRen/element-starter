@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --env.dev",
+    "start": "npm run dev",
     "build": "rimraf dist && webpack -p --progress --hide-modules"
   },
   "dependencies": {
